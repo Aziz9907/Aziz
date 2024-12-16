@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <title>DUA</title>
+</head>
+<body>
+    <header>
+        <div class="base-header">
+            <div class="c1c1">
+                <div class="catalog ">
+                    <button onclick="myFunction()" class="drop_down_menu">Каталог
+                        <div id="list-content" class="stuff-list">
+                            <a href="#">текст</a>
+                            <a href="#">текст</a>
+                            <a href="#">текст</a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <h1>DUA</h1>
+                </a>
+                <style>
+                    h1 {
+                        color: #000;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 50px;
+                    }
+                </style>
+            </div>
+            <div class="search-row">
+                    <form action="" class="a1b1c1">
+                        <div class="search2">
+                            <div class="search3">
+                                <div class="search4">
+                                    <div class="search5">
+                                        <label for="search" class="sr-only">Найти товар</label>
+                                        <input type="text" name="search" placeholder="Найти товар" class="search-bar">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" data-auto="search-button" class="submit _2rdh3">
+                                <span class="c2c2">Найти</span>
+                            </button>
+                        </div>
+                    </form>
+            </div>
+                <div class="tools">
+                    <ul class="header-tools">
+                        <a href="" class="basket-min-area">
+                            <li class="basket">
+                                <button class="smart-basket__min none">
+                                    <img class="smart-basket__min-icon" src="svg/card.svg" alt="Корзина">
+                                    <span class="smart-basket__min-count">4</span>
+                                </button>
+                            </li>
+                            <p>Корзина</p>
+                        </a>    
+                        <a href="myFavourite.html" class="fav">
+                            <li class="favourite">
+                                <button class="fav-min">
+                                    <img src="svg/fav.svg" alt="Избранное" class="favSvg">
+                                </button>
+                            </li>
+                            <p>Избранное</p>
+                        </a>
+                        <a href="myOrderList.html" class="orders-page">
+                            <   li class="orders">
+                                <button class="order-min">
+                                    <img src="svg/orders.svg" alt="Заказы">
+                                </button>
+                            </li>
+                            <p>Заказы</p>
+                        </a>
+                </ul>
+                </div>
+                <a href="authorization.html" class="authorization">
+                    <div class="authorization-block">Вход</div>
+                </a>
+        </div>
+    </header>
+    <main>
+        <div class="base-main gap center">
+
+            <div class="gallery">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="" alt="Скидки">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="" alt="Скидки">
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="#" alt="Скидки">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="#" alt="Скидки">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center" class="dots">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                </div>
+
+            <div class="main-container">
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container _22cc">
+                    <div class="content">
+                            <a href=""> <img src="images/card.png" alt="товар"> </a>
+                            <div class="title">Футболка DUA</div>
+                            <div class="product__price price"><span class="product__price-number">10</span> ₽</div>
+                            <div class="product__size">
+                                <div class="product__size-element" data-sb-curent-price="10" data-sb-curent-size="48" data-sb-curent-id-or-vendor-code="048">48 Размер</div>
+                                <div class="product__size-element" data-sb-curent-price="20" data-sb-curent-size="50" data-sb-curent-id-or-vendor-code="050">50 Размер</div>
+                            </div>
+                            <div class="product__quantity"></div>
+                        </div>
+                    <div class="card-bottom">
+                        <div class="ff_22">
+                            <a class="buy-button"
+                            data-sb-id-or-vendor-code="048"
+                            data-sb-product-name="Футболка DUA"
+                            data-sb-product-price="10"
+                            data-sb-product-quantity="1"
+                            data-sb-product-img="images/card.png"
+                            href="#" >
+                                <button type="button" class="_2button stbutton">
+                                    <span>Добавить в корзину</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="base-footer">
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="smartbasket/css/smartbasket_min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'container',
+				buttonAddToBasket: 'buy-button',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'basket',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: 'svg/card.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+
+</body>
+</html>
